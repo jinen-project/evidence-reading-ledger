@@ -6,9 +6,20 @@ A bilingual format for keeping questions, claims, evidence, readings, and residu
 
 ## Current release
 
-Schemas and a redacted example ledger will be released here. Source registries stay private until each item’s redistribution rights are verified.
+Schemas and a fully synthetic example ledger are included in this repository. Source registries stay private until each item’s redistribution rights are verified.
 
-ここにはスキーマと匿名化した例を置きます。元の台帳は、各項目の再配布権を確認するまで非公開です。
+ここにはスキーマと完全に合成した例を置いています。元の台帳は、各項目の再配布権を確認するまで非公開です。
+
+## Included / 収録物
+
+- `schemas/` — four append-only registry schemas
+- `example/` — a fictional, cross-linked JSONL ledger; it contains no external evidence or personal data
+
+## Read the example / 例を読む
+
+Start with `example/CLAIM_REGISTRY.jsonl`, then follow its question and evidence IDs into the other files. The example intentionally keeps one question open.
+
+`example/CLAIM_REGISTRY.jsonl` から読み始め、問いと根拠のIDを他のファイルへたどります。例では、ひとつの問いを意図的に未解決のまま残しています。
 
 ## Not a claim
 
